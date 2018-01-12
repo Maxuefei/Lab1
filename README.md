@@ -1,2 +1,2 @@
 # Lab1
-Introduction to R and python
+Introduction to R and Unix
