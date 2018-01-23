@@ -4,6 +4,7 @@ subtitle: "Lab 1"
 author: "Matt Ploenzke"
 date: "1/23/2018 - 1/25/2018"
 output: slidy_presentation
+# output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -35,6 +36,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - python (next time)
 
+- RMA and Limma
+
 - HW1 questions (due Sunday 2/4)
 
 ---
@@ -43,7 +46,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This is an R Markdown document that I have output to an HTML presentation. Markdown is a simple formatting syntax for producing HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-Each homework will be completed in this format and you will submit both the markdown document with code (.Rmd) and the compiled document (.pdf). With this format all necessary code (including python code!) may be included in one source and the graders may easily reproduce your results.
+Each homework will be completed in this format and you will submit both the markdown document with code (.Rmd) and the compiled document (.html or .pdf). With this format all necessary code (including python code!) may be included in one source and the graders may easily reproduce your results.
 
 Homework files will be provided in several sources depending on thir type/size. Canvas will contain the problem sets and you will submit your completed homework here. GitHub will also contain the problem sets as well as necessary (small) datasets, etc. The Odyssey cluster will contain larger datafiles (/n/stat115/) and will be necessary for high performance computing later in the semester.
 
@@ -476,3 +479,9 @@ squeue # check on job
 sacct # all jobs ran today
 scancel jobid # kill job
 ```
+
+---
+
+#### Odyssey Information
+
+Please check the course site (files/labs/01/) for a detailed introduction to Odyssey.
